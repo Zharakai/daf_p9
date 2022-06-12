@@ -33,7 +33,7 @@ ___
 
  - Reprise de la bibliothèque SVG des lithologies (ajout, correction)
  - Amélioration du tooltip d’information des graphiques
- - Correction du CSS général de l’interface
+ - Correction générale du CSS de l’interface
  - Debug : 
     - Courbes logarithmiques
 	- Labels
@@ -45,3 +45,7 @@ ___
 	- Update data
 
 ## Bilan
+
+ - Apprentissage
+ - Utilisation d'une librairie graphique (HighCharts)
+ 
