@@ -31,20 +31,35 @@ Comment garantir le succès d'implémentation d'une nouvelle feature dans une ap
 ## Missions confiées
 ___
 
- - Reprise de la bibliothèque SVG des lithologies (ajout, correction)
- - Amélioration du tooltip d’information des graphiques
- - Correction générale du CSS de l’interface
- - Debug : 
-    - Courbes logarithmiques
-	- Labels
-	- Datetime picker
-	- Export graphique PDF/PNG/JPEG
-	- Dowload data (CSV/XLS)
-	- Datatable
-	- Messages graphiques
-	- Update data
+### Reprise de la bibliothèque SVG des lithologies
+___
+
+(ajout, correction)
+
+### Amélioration du tooltip d’information des graphiques
+___
+
+Full tip or track tip
+
+### Correction générale du CSS de l’interface
+___
+
+Navigation, dashboard
+
+### Debug
+___
+
+- Courbes logarithmiques
+- Labels
+- Datetime picker
+- Export graphique PDF/PNG/JPEG
+- Dowload data (CSV/XLS)
+- Datatable
+- Messages graphiques
+- Update data
 
 ## Bilan
+___
 
  - Apprentissage
  - Utilisation d'une librairie graphique (HighCharts)
