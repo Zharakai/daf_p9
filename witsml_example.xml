@@ -1,0 +1,28 @@
+<logs>
+    <documentInfo>
+        <DocumentName></DocumentName>
+        <FileCreationInformation>
+            [...]
+        </FileCreationInformation>
+    </documentInfo>
+    <log>
+        <nameWell></nameWell>
+        <nameWellbore></nameWellbore>
+        <name></name>
+        [...]
+        <logCurveInfo>
+            <mnemonic></mnemonic>
+            <classWitsml></classWitsml>
+            <unit></unit>
+            [...]
+        </logCurveInfo>
+        <logData>
+            <data></data>
+        </logData>
+        <commonData>
+            <sourceName></sourceName>
+            <dTimCreation></dTimCreation>
+            [...]
+        </commonData>
+    </log>
+</logs>

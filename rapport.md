@@ -1,26 +1,22 @@
-# Rapport d'expérience professionnel
+# Rapport d'expérience professionnelle
 
 Formation développeur d'application frontend
 
 Projet 9 : Construisez une veille technologique et effectuez un stage.
 
-<p align="center"><img src="./assets/logo_wellcoms.png"></img></p>
-<p align="center"><img src="./assets/logo_openclassrooms.jpg" height="187px"></img></p>
+<p align="center"><img src="./assets/logo_wellcoms.png"></p>
+<p align="center"><img src="./assets/logo_openclassrooms.jpg" height="187px"></p>
 
 ## Sommaire
 
  - I - [Remerciements](#remerciements)
-
  - II - [Contexte](#contexte)
-
  - III - [Problématique](#problematique)
-
  - IV - [Missions confiées](#missions)
     - a - Reprise de la bibliothèque SVG des lithologies
     - b - Amélioration du tooltip d’information des graphiques
     - c - Correction générale du CSS de l’interface
     - d - Debug
-
  - V - [Bilan](#bilan)
 
 ## I - <a name="remerciements"></a> Remerciements
@@ -47,6 +43,10 @@ En ce qui concerne mes objectifs de formation, je compte améliorer ma maîtrise
 Comment garantir le succès d'implémentation d'une nouvelle feature dans une application web existante ?
 
 ## IV - <a name="missions"></a> Missions confiées
+
+Example de WITSML :
+
+<p align="center"><img src="./assets/logs.svg" width="600px"></p>
 
 ### a - Reprise de la bibliothèque SVG des lithologies
 
