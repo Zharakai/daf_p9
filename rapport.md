@@ -1,22 +1,31 @@
-# Rapport
-
-Projet 9 : Construisez une veille technologique et effectuez un stage.
+# Rapport d'expérience professionnel
 
 Formation développeur d'application frontend
 
-![Alt Text](./assets/logo_wellcoms.png)
-![Alt Text](./assets/logo_openclassrooms.jpg)
+Projet 9 : Construisez une veille technologique et effectuez un stage.
+
+<p align="center"><img src="./assets/logo_wellcoms.png"></img></p>
+<p align="center"><img src="./assets/logo_openclassrooms.jpg" height="187px"></img></p>
 
 ## Sommaire
-___
 
-Take me to [pookie](#pookie)
+ - I - [Remerciements](#remerciements)
 
-## I - Remerciements
-___
+ - II - [Contexte](#contexte)
 
-## II - Contexte
-___
+ - III - [Problématique](#problematique)
+
+ - IV - [Missions confiées](#missions)
+    - a - Reprise de la bibliothèque SVG des lithologies
+    - b - Amélioration du tooltip d’information des graphiques
+    - c - Correction générale du CSS de l’interface
+    - d - Debug
+
+ - V - [Bilan](#bilan)
+
+## I - <a name="remerciements"></a> Remerciements
+
+## II - <a name="contexte"></a> Contexte
 
 Qui suis-je ?
 
@@ -33,31 +42,25 @@ De plus l'environnement technique correspondait parfaitement aux attentes de la 
 En ce qui concerne mes objectifs de formation, je compte améliorer ma maîtrise du JavaScript, une fois les différents concepts de bases acquis, améliorer la structure du code, chercher l'optimisation.
 + nouveaux objectifs
 
-## III - Problématique
-____
+## III - <a name="problematique"></a> Problématique
 
 Comment garantir le succès d'implémentation d'une nouvelle feature dans une application web existante ?
 
-## IV - Missions confiées
-___
+## IV - <a name="missions"></a> Missions confiées
 
 ### a - Reprise de la bibliothèque SVG des lithologies
-___
 
 (ajout, correction)
 
 ### b - Amélioration du tooltip d’information des graphiques
-___
 
 Full tip or track tip
 
 ### c - Correction générale du CSS de l’interface
-___
 
 Navigation, dashboard
 
 ### d - Debug
-___
 
 - Courbes logarithmiques
 - Labels
@@ -68,8 +71,7 @@ ___
 - Messages graphiques
 - Update data
 
-## <a name="pookie"></a> V - Bilan
-___
+## V - <a name="bilan"></a> Bilan
 
  - Apprentissage
  - Utilisation d'une librairie graphique (HighCharts)
