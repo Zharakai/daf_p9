@@ -50,6 +50,19 @@ Example de WITSML :
 
 ### a - Reprise de la bibliothèque SVG des lithologies
 
+La lithologie va représenter un échantillon des couches géologiques, pour chaque nature de roche différente, on va appliquer une légende.
+
+Pourquoi le SVG (Scalable Vector Graphics) ?
+Afin d'avoir un affichage graphique qu'on puisse zoomer/dézoomer sans perte de qualité grâce au vectoriel.
+
+On a repris le format, afin que chaque motif ait la même dimension et corrigé certaines erreurs de code, de positionnement, voir même refaire certains motifs.
+
+<p>Exemple de motif en 50 px : <img src="./assets/litho.svg" width="50px"></p>
+<p>Exemple de motif en 100 px : <img src="./assets/litho.svg" width="100px"></p>
+<p>Exemple de motif en 300 px : <img src="./assets/litho.svg" width="300px"></p>
+
+<p>Exemple de code SVG : <img src="./assets/svg_code_example.svg" width="700px"></p>
+
 (ajout, correction)
 
 ### b - Amélioration du tooltip d’information des graphiques
