@@ -50,10 +50,10 @@ Example de WITSML :
 
 ### a - Reprise de la bibliothèque SVG des lithologies
 
-La lithologie va représenter un échantillon des couches géologiques, pour chaque nature de roche différente, on va appliquer une légende.
-
 Pourquoi le SVG (Scalable Vector Graphics) ?
 Afin d'avoir un affichage graphique qu'on puisse zoomer/dézoomer sans perte de qualité grâce au vectoriel.
+
+La lithologie va représenter un échantillon des couches géologiques, pour chaque nature de roche différente, on va appliquer une légende.
 
 On a repris le format, afin que chaque motif ait la même dimension et corrigé certaines erreurs de code, de positionnement, voir même refaire certains motifs.
 
@@ -67,7 +67,7 @@ On a repris le format, afin que chaque motif ait la même dimension et corrigé 
 
 ### b - Amélioration du tooltip d’information des graphiques
 
-Full tip or track tip
+Ici le but était d'avoir un tooltip d'informations des courbes complet. On a donc ajouté la valeur du point actuellement survolé, le minimum et le maximum possible de la courbe, la couleur
 
 ### c - Correction générale du CSS de l’interface
 
@@ -76,13 +76,21 @@ Navigation, dashboard
 ### d - Debug
 
 - Courbes logarithmiques
+  - problème de format (NaN)
 - Labels
+  - Afficher les courbes sous forme de texte (x points affichés)
 - Datetime picker
+  - Corriger le style du widget
+  - Ajouter un bouton de validation
 - Export graphique PDF/PNG/JPEG
+  - Télécharger le graphique visualisé
 - Download data (CSV/XLS)
+  - Télécharger les tableau de données du graphique
 - Datatable
+  - Afficher le tableau de données du graphique directement dans le navigateur
 - Messages graphiques
 - Update data
+- Tri des datas, s'assurer de l'unicité des data reçues, éviter l'accumulation à chaque changement de range
 
 ## V - <a name="bilan"></a> Bilan
 
