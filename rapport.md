@@ -66,11 +66,9 @@ La lithologie va représenter un échantillon des couches géologiques, pour cha
 
 On a repris le format, afin que chaque motif ait la même dimension et corrigé certaines erreurs de code, de positionnement, voir même refaire certains motifs.
 
-<div style="background-color:#7451ebff; padding-top:5px;">
-  <p>Exemple de motif en 50 px : <img src="./assets/litho.svg" width="50px"></p>
-  <p>Exemple de motif en 100 px : <img src="./assets/litho.svg" width="100px"></p>
-  <p>Exemple de motif en 300 px : <img src="./assets/litho.svg" width="300px"></p>
-</div>
+<p style="background-color:#7451ebff; padding-top:5px;">Exemple de motif en 50 px : <img src="./assets/litho.svg" width="50px"></p>
+<p style="background-color:#7451ebff; padding-top:5px;">Exemple de motif en 100 px : <img src="./assets/litho.svg" width="100px"></p>
+<p style="background-color:#7451ebff; padding-top:5px;">Exemple de motif en 300 px : <img src="./assets/litho.svg" width="300px"></p>
 
 <p>Exemple de code SVG : <img src="./assets/svg_code_example.svg" width="700px"></p>
 
