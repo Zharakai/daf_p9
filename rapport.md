@@ -21,12 +21,14 @@ Projet 9 : Construisez une veille technologique et effectuez un stage.
 
 ## I - <a name="remerciements"></a> Remerciements
 
-Je tiens à remercier tout particulièrement mon mentor de formation, Stan Daniels-Roth, qui m'a suivi pendant plus de deux ans de formation au sein d'OpenClassrooms.
+Je tiens à remercier tout particulièrement mon mentor de formation, `Stan Daniels-Roth`, qui m'a suivi pendant plus de deux ans de formation au sein d'OpenClassrooms.
 Pour toute l'expérience qu'il a su m'apporter, sa passion et son dévouement m'ont été d'une grande aide pour m'orienter et me guider dans la réalisation de chaque projet d'école.
 
-Je tiens également à remercier le serveur Discord `Sans prise de tech` ou l'entraide et la bonne humeur sont toujours présentes. Merci à tous ceux qui m'ont aidé à avancer.
+Je tiens également à dire un grand merci au serveur Discord `Sans prise de tech` ou l'entraide et la bonne humeur sont toujours présentes. Merci à tous ceux qui m'ont aidé à avancer.
 
-Et enfin merci à OpenClassrooms pour m'avoir permis de mettre un pied dans le monde du developpement et rendu cette formation possible.
+Merci aussi à l'équipe `Wellcoms Drilling & Geology` pour l'accueil dans leur structure, qui a permis cette première expérience dans le monde professionnel.
+
+Et enfin merci à `OpenClassrooms` pour m'avoir permis de mettre un pied dans le monde du developpement et rendu cette formation possible.
 
 ## II - <a name="contexte"></a> Contexte
 
