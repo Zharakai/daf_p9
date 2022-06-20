@@ -21,6 +21,13 @@ Projet 9 : Construisez une veille technologique et effectuez un stage.
 
 ## I - <a name="remerciements"></a> Remerciements
 
+Je tiens à remercier tout particulièrement mon mentor de formation, Stan Daniels-Roth, qui m'a suivi pendant plus de deux ans de formation au sein d'OpenClassrooms.
+Pour toute l'expérience qu'il a su m'apporter, sa passion et son dévouement m'ont été d'une grande aide pour m'orienter et me guider dans la réalisation de chaque projet d'école.
+
+Je tiens également à remercier le serveur Discord `Sans prise de tech` ou l'entraide et la bonne humeur sont toujours présentes. Merci à tous ceux qui m'ont aidé à avancer.
+
+Et enfin merci à OpenClassrooms pour m'avoir permis de mettre un pied dans le monde du developpement et rendu cette formation possible.
+
 ## II - <a name="contexte"></a> Contexte
 
 Qui suis-je ?
@@ -32,8 +39,8 @@ L'organisation qui m'accueille, basée en France, est spécialisée dans la cré
 Elle est spécialisée dans la récupération et le traitement de données relatives au forages pétroliers en utilisant les standards de l'industrie, c'est à dire principalement du WITSML (langage de balises basé sur XML).
 L'équipe est constituée de plusieurs développeurs, un ingénieur recherche et développement, un administrateur système, un géologue, un commercial relation client, une équipe de support client et une équipe administrative.
 
-Mon choix s'est porté sur cette entreprise car elle proposait un environnement propice à l'apprentissage, avec une petite équipe, un esprit familial et le temps nécessaire pour monter en compétence avant de se lancer dans de véritables missions (Avant de se lancer dans des projets plus complexes).
-De plus l'environnement technique correspondait parfaitement aux attentes de la formation, avec JavaScript/jQuery utilisé des deux côtés. Plus un nouveau projet interne à l'entreprise en Vue.js, technologie que j'ai pu utiliser et approfondir dans le projet `Lancez votre propre site d'avis de restaurants`.
+Mon choix s'est porté sur cette entreprise car elle proposait un environnement propice à l'apprentissage, avec une petite équipe, un esprit familial et le temps nécessaire pour monter en compétence avant de se lancer dans des projets plus complexes.
+De plus l'environnement technique correspondait parfaitement aux attentes de la formation, avec JavaScript/jQuery utilisé des deux côtés. Ainsi qu'un nouveau projet interne à l'entreprise en Vue.js, technologie que j'ai pu utiliser et approfondir dans le projet `Lancez votre propre site d'avis de restaurants`.
 
 En ce qui concerne mes objectifs de formation, je compte améliorer ma maîtrise du JavaScript, une fois les différents concepts de bases acquis, améliorer la structure du code, chercher l'optimisation.
 + nouveaux objectifs
