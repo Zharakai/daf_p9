@@ -72,15 +72,22 @@ On a repris le format, afin que chaque motif ait la même dimension et corrigé 
 
 <p>Exemple de code SVG : <img src="./assets/svg_code_example.svg" width="700px"></p>
 
-(ajout, correction)
+ - (ajout, correction)
 
 ### b - Amélioration du tooltip d’information des graphiques
 
-Ici le but était d'avoir un tooltip d'informations des courbes complet. On a donc ajouté la valeur du point actuellement survolé, le minimum et le maximum possible de la courbe, la couleur
+Ici le but était d'avoir un tooltip d'informations des courbes complet. 
+
+On a donc ajouté le nom de la courbe, la valeur du point actuellement survolé, le minimum et le maximum possible de la courbe, la couleur.
+On a ajouté comme option le choix d'afficher le tooltip pour toutes les tracks en même temps, ou uniquement la track survolé
 
 ### c - Correction générale du CSS de l’interface
 
-Navigation, dashboard
+Pour la correction générale du CSS, il fallait reprendre la barre de navigation commune et chaque section de l'application.
+Plusieurs problèmes, du CSS et du Less anciens, éparpillés dans plusieurs dossiers. 
+Du CSS de Bootstrap pouvait venir entrer en conflit avec certaines parties, notamment à cause de l'utilisation du `!important`.
+
+Solution partielle apportée : utilisation de Sass, regroupement du CSS avec l'architecture Sass au maximum.
 
 ### d - Debug
 
