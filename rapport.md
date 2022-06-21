@@ -22,11 +22,11 @@ Projet 9 : Construisez une veille technologique et effectuez un stage.
 ## I - <a name="remerciements"></a> Remerciements
 
 Je tiens à remercier tout particulièrement mon mentor de formation, `Stan Daniels-Roth`, qui m'a suivi pendant plus de deux ans de formation au sein d'OpenClassrooms.
-Pour toute l'expérience qu'il a su m'apporter, sa passion et son dévouement m'ont été d'une grande aide pour m'orienter et me guider dans la réalisation de chaque projet d'école.
+Pour toute l'expérience qu'il a su m'apporter, sa passion et son dévouement m'ont été d'une grande aide pour m'orienter et me guider dans la réalisation de chaque projet d'école et même au-delà.
 
 Je tiens également à dire un grand merci au serveur Discord `Sans prise de tech` ou l'entraide et la bonne humeur sont toujours présentes. Merci à tous ceux qui m'ont aidé à avancer.
 
-Merci aussi à l'équipe `Wellcoms Drilling & Geology` pour l'accueil dans leur structure, qui a permis cette première expérience dans le monde professionnel.
+Merci aussi à l'équipe `Wellcoms Drilling & Geology` pour l'accueil dans leur structure, qui m'a permis cette première expérience dans le monde professionnel.
 
 Et enfin merci à `OpenClassrooms` pour m'avoir permis de mettre un pied dans le monde du developpement et rendu cette formation possible.
 
@@ -52,10 +52,6 @@ En ce qui concerne mes objectifs de formation, je compte améliorer ma maîtrise
 Comment garantir le succès d'implémentation d'une nouvelle feature dans une application web existante ?
 
 ## IV - <a name="missions"></a> Missions confiées
-
-Example de WITSML :
-
-<p align="center"><img src="./assets/logs.svg" width="600px"></p>
 
 ### a - Reprise de la bibliothèque SVG des lithologies
 
@@ -84,17 +80,28 @@ On a ajouté comme option le choix d'afficher le tooltip pour toutes les tracks 
 ### c - Correction générale du CSS de l’interface
 
 Pour la correction générale du CSS, il fallait reprendre la barre de navigation commune et chaque section de l'application.
-Plusieurs problèmes, du CSS et du Less anciens, éparpillés dans plusieurs dossiers. 
-Du CSS de Bootstrap pouvait venir entrer en conflit avec certaines parties, notamment à cause de l'utilisation du `!important`.
+Plusieurs problèmes ont été rencontrés, du CSS et du Less anciens, éparpillés dans plusieurs dossiers. 
+Du CSS de Bootstrap pouvait venir entrer en conflit avec certaines parties, notamment à cause de l'utilisation du tag `!important`.
 
-Solution partielle apportée : utilisation de Sass, regroupement du CSS avec l'architecture Sass au maximum.
+La solution encore en cours d'amélioration qui a été apportée, c'est l'utilisation de Sass avec un regroupement du CSS et l'utilisation d'une architecture qui se rapproche du 7.1.
+C'est à dire l'utilisation de plusieurs dossiers afin de bien séparer chaque section et composants du site, afin de mieux s'y retrouver.
+Certaines possibilitées du CSS3, qui était très peu utilisées, notamment flexbox, ont largement été déployées afin de faciliter la construction et la maintenabilité du style.
 
 ### d - Debug
 
+Le debug concerne principalement la nouvelle feature, la visualisation graphique du WITSML.
+
+Example de WITSML :
+
+<p align="center"><img src="./assets/logs.svg" width="600px"></p>
+
 - Courbes logarithmiques
-  - problème de format (NaN)
+
+La valeur prédéterminée de la largeur de la piste (pour afficher la courbe), était considérée comme `NaN`, il fallait donc bien s'assurer du format qui arrivait. Si celui-ci n'était pas valide, on recalculait la largeur de la piste.
+
 - Labels
   - Afficher les courbes sous forme de texte (x points affichés)
+  - Problèmes d'affichages
 - Datetime picker
   - Corriger le style du widget
   - Ajouter un bouton de validation
