@@ -100,11 +100,21 @@ Example de WITSML :
 La valeur prédéterminée de la largeur de la piste (pour afficher la courbe), était considérée comme `NaN`, il fallait donc bien s'assurer du format qui arrivait. Si celui-ci n'était pas valide, on recalculait la largeur de la piste.
 
 - Labels
-  - Afficher les courbes sous forme de texte (x points affichés)
-  - Problèmes d'affichages
+
+Les labels correspondent à un affichage de la courbe sous forme de texte. On affiche seulement x points de la courbe et ils apparaissent avec leur valeur correspondante.
+
+Le problème se trouvait dans le placement des labels, on pouvait configurer le décalage (offset) souhaité, celui-ci n'était pas pris en compte.
+
+Il a également fallu résoudre un problème de texte qui était doublé et qui donnait un effet d'ombre non désiré.
+  
 - Datetime picker
-  - Corriger le style du widget
-  - Ajouter un bouton de validation
+
+Le datetime picker qui est utilisé est celui de Bootstrap. Il est ici utilisé pour naviguer à travers la représentation graphique des puits de forages. La plage de sélection possible correspond aux dates entre le début et la fin de l'exploitation, ou la dernière date possible si le forage est en cours.
+
+<p align="center"><img src="./assets/datetimepicker.jpg"> <img src="./assets/datetimepicker_hours.jpg"></p>
+
+Il y avait plusieurs problèmes, tout le style n'était pas pris en compte. Certains chemin d'accès étaient cassés.
+Il fallait également rajouter un bouton de validation.
 - Export graphique PDF/PNG/JPEG
   - Télécharger le graphique visualisé
 - Download data (CSV/XLS)
