@@ -68,8 +68,6 @@ On a repris le format, afin que chaque motif ait la même dimension et corrigé 
 
 <p>Exemple de code SVG : <img src="./assets/svg_code_example.svg" width="700px"></p>
 
- - (ajout, correction)
-
 ### b - Amélioration du tooltip d’information des graphiques
 
 Ici le but était d'avoir un tooltip d'informations des courbes complet. 
@@ -95,9 +93,13 @@ Example de WITSML :
 
 <p align="center"><img src="./assets/logs.svg" width="600px"></p>
 
+L'un des outils le plus utilisé pour cette nouvelle feature est la librairie graphique HighCharts. Pour les besoins métiers relatif à notre domaine, nous avions besoins d'afficher les courbes en profondeur, afin de représenter les puits de forage.
+
 - Courbes logarithmiques
 
-La valeur prédéterminée de la largeur de la piste (pour afficher la courbe), était considérée comme `NaN`, il fallait donc bien s'assurer du format qui arrivait. Si celui-ci n'était pas valide, on recalculait la largeur de la piste.
+La valeur prédéterminée de la largeur de la piste (pour afficher la courbe), était considérée comme `NaN`, il fallait donc bien s'assurer du format qui arrivait. Si celui-ci n'était pas valide, on recalculait la largeur de la piste en fonction du nombre de pistes déjà présentes.
+
+<p align="center"><img src="./assets/logarithmic-axis-demo.svg" width="600px"></p>
 
 - Labels
 
@@ -115,8 +117,19 @@ Le datetime picker qui est utilisé est celui de Bootstrap. Il est ici utilisé 
 
 Il y avait plusieurs problèmes, tout le style n'était pas pris en compte. Certains chemin d'accès étaient cassés.
 Il fallait également rajouter un bouton de validation.
-- Export graphique PDF/PNG/JPEG
+
+- Download graphique PDF/PNG/JPEG/SVG
+
+La librairie utilisée, HighCharts, permet un export des graphiques sous différents formats (PDF, PNG, JPEG, SVG).
+
+Il y avait plusieurs problèmes ici, par défaut on passait par le serveur HighCharts pour télécharger les graphiques, ce qui peut déjà poser un problème de sécurité.
+
+Nous avons choisi d'utiliser le module `Client side export` afin de pouvoir télécharger les graphique coté client. Il fallait donc inclure le module `offline-exporting.js` dans les scripts et desactiver le téléchargement par le serveur dans les options de l'API HighCharts.
+
   - Télécharger le graphique visualisé
+  - Ajout infos sur le puits
+  - 
+
 - Download data (CSV/XLS)
   - Télécharger les tableau de données du graphique
 - Datatable
