@@ -4,8 +4,16 @@ Formation développeur d'application frontend
 
 Projet 9 : Construisez une veille technologique et effectuez un stage.
 
-<p align="center"><img src="./assets/logo_wellcoms.png"></p>
-<p align="center"><img src="./assets/logo_openclassrooms.jpg" height="187px"></p>
+<p align="center">
+  <img src="./assets/logo_wellcoms.png">
+</p>
+<p align="center">
+  X
+</p>
+<p align="center">
+  <img src="./assets/openclassrooms_logo.svg" height="">
+</p>
+
 
 ## Sommaire
 
@@ -21,14 +29,14 @@ Projet 9 : Construisez une veille technologique et effectuez un stage.
 
 ## I - <a name="remerciements"></a> Remerciements
 
-Je tiens à remercier tout particulièrement mon mentor de formation, `Stan Daniels-Roth`, qui m'a suivi pendant plus de deux ans de formation au sein d'OpenClassrooms.
+Je tiens à remercier tout particulièrement mon mentor de formation, [`Stan Daniels-Roth`](https://github.com/MrStanDu33) aka @MrStanDu33, qui m'a suivi pendant plus de deux ans de formation au sein d'OpenClassrooms.
 Pour toute l'expérience qu'il a su m'apporter, sa passion et son dévouement m'ont été d'une grande aide pour m'orienter et me guider dans la réalisation de chaque projet d'école et même au-delà.
 
 Je tiens également à dire un grand merci au serveur Discord `Sans prise de tech` ou l'entraide et la bonne humeur sont toujours présentes. Merci à tous ceux qui m'ont aidé à avancer.
 
-Merci aussi à l'équipe `Wellcoms Drilling & Geology` pour l'accueil dans leur structure, qui m'a permis cette première expérience dans le monde professionnel.
+Merci aussi à l'équipe [`Wellcoms Drilling & Geology`](https://www.wellcoms.fr/) pour l'accueil dans leur structure, qui m'a permis cette première expérience dans le monde professionnel.
 
-Et enfin merci à `OpenClassrooms` pour m'avoir permis de mettre un pied dans le monde du developpement et rendu cette formation possible.
+Et enfin merci à [`OpenClassrooms`](https://openclassrooms.com/fr/) pour m'avoir permis de mettre un pied dans le monde du developpement et rendu cette formation possible.
 
 ## II - <a name="contexte"></a> Contexte
 
@@ -118,17 +126,17 @@ Le datetime picker qui est utilisé est celui de Bootstrap. Il est ici utilisé 
 Il y avait plusieurs problèmes, tout le style n'était pas pris en compte. Certains chemin d'accès étaient cassés.
 Il fallait également rajouter un bouton de validation.
 
-- Download graphique PDF/PNG/JPEG/SVG
+- Download graphique
 
 La librairie utilisée, HighCharts, permet un export des graphiques sous différents formats (PDF, PNG, JPEG, SVG).
 
-Il y avait plusieurs problèmes ici, par défaut on passait par le serveur HighCharts pour télécharger les graphiques, ce qui peut déjà poser un problème de sécurité.
+Il y avait plusieurs problèmes ici, par défaut on passait par le serveur HighCharts pour télécharger les graphiques, ce qui peut déjà poser un problème de sécurité. Il y avait également un problème sur la gestion de taille des fichiers, en cas de grand nombre de pistes et de graphiques, le téléchargement ne pouvait pas s'effectuer.
 
 Nous avons choisi d'utiliser le module `Client side export` afin de pouvoir télécharger les graphique coté client. Il fallait donc inclure le module `offline-exporting.js` dans les scripts et desactiver le téléchargement par le serveur dans les options de l'API HighCharts.
 
-  - Télécharger le graphique visualisé
-  - Ajout infos sur le puits
-  - 
+Il fallait également afficher les informations sur le puit téléchargé comme son nom, nom du canvas. On pouvait utiliser le `title` du graphique pour mettre ces informations, et elles étaient bien prises en compte dans les paramètres du téléchargement.
+
+Et enfin nous avons ajouté les informations sur le puit et la date pour le nom du fichier téléchargé.
 
 - Download data (CSV/XLS)
   - Télécharger les tableau de données du graphique
