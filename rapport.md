@@ -29,7 +29,7 @@ Projet 9 : Construisez une veille technologique et effectuez un stage.
 
 ## I - <a name="remerciements"></a> Remerciements
 
-Je tiens à remercier tout particulièrement mon mentor de formation, [`Stan Daniels-Roth`](https://daniels-roth-stan.fr/) aka [`@MrStanDu33`](https://github.com/MrStanDu33), qui m'a suivi pendant plus de deux ans de formation au sein d'OpenClassrooms.
+Je tiens à remercier tout particulièrement mon mentor de formation, [`Stan Daniels-Roth`](https://daniels-roth-stan.fr/) aussi connu sous le pseudo [`MrStanDu33`](https://github.com/MrStanDu33), qui m'a suivi pendant plus de deux ans de formation au sein d'OpenClassrooms.
 Pour toute l'expérience qu'il a su m'apporter, sa passion et son dévouement m'ont été d'une grande aide pour m'orienter et me guider dans la réalisation de chaque projet d'école et même au-delà.
 
 Je tiens également à dire un grand merci au serveur Discord [`Sans prise de tech`](discord.gg/spdt) ou l'entraide et la bonne humeur sont toujours présentes. Merci à tous ceux qui m'ont aidé à avancer.
@@ -45,12 +45,12 @@ Qui suis-je ?
 Je me présente, Yannis Almanric, 29 ans.
 Je suis depuis deux ans, en alternance chez la société Wellcoms Drilling & Geology en tant que développeur front-end.
 
-L'organisation qui m'accueille, basée en France, est spécialisée dans la création d'outils informatique pour de la transmission et de la visualisation de données depuis 15 ans.
+L'organisation qui m'accueille, basée en France, est spécialisée dans la création d'outils informatiques pour de la transmission et de la visualisation de données depuis 15 ans.
 Elle est spécialisée dans la récupération et le traitement de données relatives au forages pétroliers, en utilisant les standards de l'industrie, c'est à dire principalement du WITSML (langage de balises basé sur XML).
-L'équipe est constituée de plusieurs développeurs, un ingénieur recherche et développement, un administrateur système, un géologue, un commercial relation client, une équipe de support client et une équipe administrative.
+L'équipe est constituée de deux développeurs, un ingénieur recherche et développement, un administrateur système et réseaux, un géologue, un commercial relation client, une équipe de support client et une équipe administrative.
 
 Mon choix s'est porté sur cette entreprise car elle proposait un environnement propice à l'apprentissage, avec une petite équipe, un esprit familial et le temps nécessaire pour monter en compétence avant de se lancer dans des projets plus complexes.
-De plus l'environnement technique correspondait parfaitement aux attentes de la formation, avec JavaScript/jQuery utilisé des deux côtés. Ainsi qu'un nouveau projet interne à l'entreprise en Vue.js, technologie que j'ai pu utiliser et approfondir dans le projet `Lancez votre propre site d'avis de restaurants`.
+De plus l'environnement technique correspondait parfaitement aux attentes de la formation, avec JavaScript, jQuery utilisé des deux côtés. Ainsi qu'un nouveau projet interne à l'entreprise en Vue.js, technologie que j'ai pu utiliser et approfondir dans le projet `Lancez votre propre site d'avis de restaurants`.
 
 En ce qui concerne mes objectifs de formation, je compte améliorer ma maîtrise du JavaScript, une fois les différents concepts de bases acquis, améliorer la structure du code, chercher l'optimisation.
 
@@ -71,13 +71,9 @@ La lithologie va représenter un échantillon des couches géologiques, pour cha
 
 On a repris le format, afin que chaque motif ait la même dimension et corrigé certaines erreurs de code, de positionnement, voir même refaire certains motifs.
 
-<center>
-
 | motif en 50 px | motif en 100 px | motif en 300 px |
 |:--------------:|:---------------:|:---------------:|
 |<img src="./assets/litho.svg" width="50px"> | <img src="./assets/litho.svg" width="100px"> | <img src="./assets/litho.svg" width="300px"> |
-
-</center>
 
 Exemple de code SVG :
 <p align="center"><img src="./assets/svg_code_example.svg" width="700px"></p>
@@ -157,17 +153,11 @@ Dans le header du tableau il manquait les unités pour chaque courbe, il fallait
 
 Ici nous avons un peu le même comportement que download data mais avec une visualisation du tableau de données directement dans le navigateur.
 
-- Messages graphiques
-- Update data
-
-- Refactoring mergeDataCache() 
-
-Mise à jour de la fonction qui permet s'occuper des nouvelles données lors de la navigation
-Tri des datas, s'assurer de l'unicité des data reçues, éviter l'accumulation à chaque changement de range
-
-
 ## V - <a name="bilan"></a> Bilan
 
- - Apprentissage
- - Utilisation d'une librairie graphique (HighCharts)
+Au cours de cette alternance j'ai pu apprendre, mettre en pratique la théorie et évoluer, ce qui m'a permis d'acquérir des compétences et de l'expérience tout au long du parcours. Elle m'a permis de prendre confiance dans mes capacités de développeur, même s'il reste du chemin à parcourir.
+
+
+
+Au final, après ces deux ans passés, j'aspire à trouver un domaine différents de celui dans lequel j'ai pu faire mon apprentissage. Je pense qu'il serait bénéfique de changer d'entreprise afin d'avoir une autre vision de ce qu'il est possible de faire en tant que développeur, voir d'autres organisations, d'autres manières de travailler.
  
