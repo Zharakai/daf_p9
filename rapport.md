@@ -100,7 +100,7 @@ Du CSS de Bootstrap pouvait venir entrer en conflit avec certaines parties, nota
 
 La solution encore en cours d'amélioration qui a été apportée, c'est l'utilisation de Sass avec un regroupement du CSS et l'utilisation d'une architecture qui se rapproche du 7.1.
 C'est à dire l'utilisation de plusieurs dossiers afin de bien séparer chaque section et composants du site, afin de mieux s'y retrouver.
-Certaines possibilitées du CSS3, qui étaientt très peu utilisées, notamment flexbox, ont largement été déployées afin de faciliter la construction et la maintenabilité du style.
+Certaines possibilitées du CSS3, qui étaient très peu utilisées, notamment flexbox, ont largement été déployées afin de faciliter la construction et la maintenabilité du style.
 
 ### d - <a name="debug"> Debug
 
