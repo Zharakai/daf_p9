@@ -43,7 +43,7 @@ Et enfin merci à [`OpenClassrooms`](https://openclassrooms.com/fr/) pour m'avoi
 Qui suis-je ?
 
 Je me présente, Yannis Almanric, 29 ans.
-Je suis depuis deux ans, en alternance chez la société Wellcoms Drilling & Geology en tant que développeur front-end.
+Je suis depuis deux ans, en alternance chez la société Wellcoms Drilling & Geology en tant que développeur frontend.
 
 L'organisation qui m'accueille, basée en France, est spécialisée dans la création d'outils informatiques pour de la transmission et de la visualisation de données depuis 15 ans.
 Elle est spécialisée dans la récupération et le traitement de données relatives au forages pétroliers, en utilisant les standards de l'industrie, c'est à dire principalement du WITSML (langage de balises basé sur XML).
@@ -58,7 +58,9 @@ Mes objectifs après la formation ce serait de continuer à me spécialiser en i
 
 ## III - <a name="problematique"></a> Problématique
 
-Comment garantir le succès d'implémentation d'une nouvelle feature dans une application web existante ?
+J'ai pu prendre part à l'implémentation d'une nouvelle visualisation basée sur le WITSML. On peut donc faire ressortir comme principale problématique :
+
+***Comment garantir le succès d'implémentation d'une nouvelle feature dans une application web existante ?***
 
 ## IV - <a name="missions"></a> Missions confiées
 
@@ -96,7 +98,7 @@ Du CSS de Bootstrap pouvait venir entrer en conflit avec certaines parties, nota
 
 La solution encore en cours d'amélioration qui a été apportée, c'est l'utilisation de Sass avec un regroupement du CSS et l'utilisation d'une architecture qui se rapproche du 7.1.
 C'est à dire l'utilisation de plusieurs dossiers afin de bien séparer chaque section et composants du site, afin de mieux s'y retrouver.
-Certaines possibilitées du CSS3, qui étaient très peu utilisées, notamment flexbox, ont largement été déployées afin de faciliter la construction et la maintenabilité du style.
+Certaines possibilités du CSS3, qui étaient très peu utilisées, notamment flexbox, ont largement été déployées afin de faciliter la construction et la maintenabilité du style.
 
 ### d - <a name="debug"> Debug
 
@@ -118,7 +120,7 @@ La valeur prédéterminée de la largeur de la piste (pour afficher la courbe), 
 
 Les labels correspondent à un affichage de la courbe sous forme de texte. On affiche seulement x points de la courbe et ils apparaissent avec leur valeur correspondante.
 
-Le problème se trouvait dans le placement des labels, on pouvait configurer le décalage (offset) souhaité, celui-ci n'était pas pris en compte.
+Le problème se trouvait dans le placement des labels, on pouvait configurer le décalage (offset) souhaité, mais celui-ci n'était pas pris en compte.
 
 Il a également fallu résoudre un problème de texte qui était doublé et qui donnait un effet d'ombre non désiré.
   
@@ -137,7 +139,7 @@ La librairie utilisée, HighCharts, permet un export des graphiques sous différ
 
 Il y avait plusieurs problèmes ici, par défaut on passait par le serveur HighCharts pour télécharger les graphiques, ce qui peut déjà poser un problème de sécurité. Il y avait également un problème sur la gestion de taille des fichiers, en cas de grand nombre de pistes et de graphiques, le téléchargement ne pouvait pas s'effectuer.
 
-Nous avons choisi d'utiliser le module `Client side export` afin de pouvoir télécharger les graphique coté client. Il fallait donc inclure le module `offline-exporting.js` dans les scripts et desactiver le téléchargement par le serveur dans les options de l'API HighCharts.
+Nous avons choisi d'utiliser le module `Client side export` afin de pouvoir télécharger les graphique coté client. Il fallait donc inclure le module `offline-exporting.js` dans les scripts et désactiver le téléchargement par le serveur dans les options de l'API HighCharts.
 
 Il fallait également afficher les informations sur le puit téléchargé comme son nom, le nom du canvas. On pouvait utiliser le paramètre `title` du graphique pour mettre ces informations, et elles étaient bien prises en compte dans les paramètres du téléchargement.
 
@@ -145,7 +147,7 @@ Et enfin nous avons ajouté les informations sur le puit et la date pour le nom 
 
 - Download data
 
-Toujours avec HighCharts, on a la possibilité de faire un export des données au format CSV ou XLS (format tableur) pour avoir le tableau des données du graphique (sur le range selectionné)
+Toujours avec HighCharts, on a la possibilité de faire un export des données au format CSV ou XLS (format tableur) pour avoir le tableau des données du graphique (sur le range sélectionné)
 
 Dans le header du tableau il manquait les unités pour chaque courbe, il fallait donc les ajouter.
 
@@ -153,11 +155,11 @@ Dans le header du tableau il manquait les unités pour chaque courbe, il fallait
 
 Ici nous avons un peu le même comportement que download data mais avec une visualisation du tableau de données directement dans le navigateur.
 
+Il fallait également ajouter les unités dans le header du tableau.
+
 ## V - <a name="bilan"></a> Bilan
 
 Au cours de cette alternance j'ai pu apprendre, mettre en pratique la théorie et évoluer, ce qui m'a permis d'acquérir des compétences et de l'expérience tout au long du parcours. Elle m'a permis de prendre confiance dans mes capacités de développeur, même s'il reste du chemin à parcourir.
 
-
-
-Au final, après ces deux ans passés, j'aspire à trouver un domaine différents de celui dans lequel j'ai pu faire mon apprentissage. Je pense qu'il serait bénéfique de changer d'entreprise afin d'avoir une autre vision de ce qu'il est possible de faire en tant que développeur, voir d'autres organisations, d'autres manières de travailler.
+Au final, après ces deux ans passés, j'aspire à trouver un domaine différents de celui dans lequel j'ai pu faire mon apprentissage. Je pense qu'il serait bénéfique de changer d'entreprise afin d'avoir une autre vision de ce qu'il est possible de faire en tant que développeur, voir d'autres organisations, d'autres manières de travailler afin de continuer à progresser et ne pas s'enfermer trop rapidement dans une certaine routine.
  
